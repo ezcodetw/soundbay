@@ -8,7 +8,7 @@
 |
 */
 define(	"ROOTHOST"					,	'http://'.$_SERVER['HTTP_HOST']		   );
-define(	"ROOTDIR"					,	"" 							   );
+define(	"ROOTDIR"					,	"mico/" 							   );
 define(	"THISHOST"					,	ROOTHOST.'/'.ROOTDIR				   );	
 /*
 |--------------------------------------------------------------------------
