@@ -1,0 +1,350 @@
+#frame-container {
+    border-top: 2px solid #e1e13c;
+    border-bottom: 2px solid #e1e13c;
+}
+
+/***** Button *****/
+/* Static */
+.button, .button.hover-button, .button.hover-button .button-left, .button.hover-button .button-right, .button.hover-button.active-button, .button.hover-button.active-button .button-left, .button.hover-button.active-button .button-right {
+    background-image: url('images/button-bg.png');
+
+}
+.button {
+    background-color: #e1e13c;
+}
+.button-left {
+    background: #e1e13c;
+}
+.button-right {
+    background: #e1e13c;
+}
+
+/***** Big button *****/
+/* Static */
+.big-button, .big-button.hover-button, .big-button.hover-button .big-button-left, .big-button.hover-button .big-button-right, .big-button.hover-button.active-button, .big-button.hover-button.active-button .big-button-left, .big-button.hover-button.active-button .big-button-right {
+    background-image: url('images/big-button-bg.png');    
+}
+.big-button {
+    background-color: #e1e13c;
+}
+.big-button-left {
+    background: #e1e13c;
+}
+.big-button-right {
+    background: #e1e13c;
+}
+ol.flex-control-nav a {
+    background: url('images/pagination-bullet.png') left top no-repeat;
+}
+ol.flex-control-nav a:hover {
+    background: url('images/pagination-bullet-hover.png') left top no-repeat !important;    
+}
+ol.flex-control-nav a.active {
+    background: url('images/pagination-bullet-current.png') left top no-repeat !important;
+}
+.numbers-pagination li a:hover span {
+    border-bottom: 1px solid #e1e13c;
+}
+.numbers-pagination-current a {
+    background: #e1e13c !important;
+}
+.prev a {
+    background: url('images/prev.png') left top no-repeat;
+} 
+.prev.no-items a {
+    background: url('images/no-prev.png') left top no-repeat;
+}
+.next a {
+    background: url('images/next.png') left top no-repeat;
+}
+.next.no-items a {
+    background: url('images/no-next.png') left top no-repeat;
+}
+
+/***** Grid-list-view *****/
+.toggle-grid-list-view {
+    background: url('images/grid-list-view-bg.png') 20px center no-repeat;
+}
+.toggle-grid-view a {
+    background: url('images/grid-view.png') left bottom no-repeat;
+}
+.toggle-grid-view.active-view a {
+    background: url('images/grid-view-active.png') left bottom no-repeat;
+} 
+.toggle-list-view a {
+    background: url('images/list-view.png') left bottom no-repeat;
+} 
+.toggle-list-view.active-view a {
+    background: url('images/list-view-active.png') left bottom no-repeat;
+}
+
+/***** Social Widget *****/
+a.twitter-icon {
+    background-image:url(images/social-icons/twitter.png);
+}
+a.twitter-icon:hover {
+    background-color: #e1e13c!important;
+}
+a.facebook-icon {
+    background-image:url(images/social-icons/facebook.png);
+}
+a.facebook-icon:hover {
+    background-color: #e1e13c!important;
+}
+a.dribbble-icon {
+    background-image:url(images/social-icons/dribbble.png);
+}
+a.dribbble-icon:hover {
+    background-color: #e1e13c!important;
+}
+a.youtube-icon {
+    background-image:url(images/social-icons/youtube.png);
+}
+a.youtube-icon:hover {
+    background-color: #e1e13c!important;
+}
+a.vimeo-icon {
+    background-image:url(images/social-icons/vimeo.png);
+}
+a.vimeo-icon:hover {
+    background-color: #e1e13c!important;
+}
+a.lastfm-icon {
+    background-image:url(images/social-icons/lastfm.png);
+}
+a.lastfm-icon:hover {
+    background-color: #e1e13c!important;
+}
+
+/***** Twitter Widget *****/
+#sidebar .tweet ul li .tweet_text a {
+    color: #2B2B2B;
+    border-bottom: 1px solid #e1e13c;
+}
+#sidebar a {
+    color: #2B2B2B;
+    border-bottom: 1px solid #e1e13c;
+}
+
+/***** Header *****/
+#logo {
+    background: url('images/logo.png')  left top no-repeat;
+}
+#menu-topmenu>ul>li:hover>a {
+    border-bottom: 1px solid #e1e13c !important;
+}
+.menu li a:hover, .current-menu-item a {
+    border-bottom: 1px solid #e1e13c !important;
+}
+#show-hide-social {
+    background: url('images/show-hide-social.png') left top no-repeat;
+}
+#show-hide-social.hidden-sidebar-close {
+background: url('images/show-hide-social-closed.png') left top no-repeat; 
+}
+#to-the-top {
+    background: url('images/to-the-top.png') left top no-repeat;
+}
+
+/***** Slider-section *****/
+#slider-container .slide .slider-text .slider-title a {
+    border-bottom: 1px solid #e1e13c;
+
+}
+#slider-nav-section {
+    background: #e1e13c;
+}
+.buttonArea li a:hover, .buttonArea a.active, #slider-nav li a:hover, #slider-nav a.active {
+    background: url('images/slider-nav-current.png') center center no-repeat !important;
+}
+#triangle {
+    background: url('images/triangle.png') left top no-repeat;
+}
+
+/***** Blockquotes-section *****/
+blockquote {
+    background: url('images/blockquote-bg.png') left top no-repeat;
+}
+
+/***** .section *****/
+.section-header {
+    border-left: 6px solid #e1e13c;
+}
+.sub-section-header span a {
+    border-bottom: 1px solid #e1e13c;
+}
+.section-header h1 a:hover, .section-header h2 a:hover, .section-header h3 a:hover, .section-header h4 a:hover, .section-header h5 a:hover, .section-header h6 a:hover {
+    border-bottom: 1px solid #e1e13c;
+}
+.section-menu li a {
+    border-bottom: 1px solid #e1e13c;
+}
+
+/***** Snippets (portfolio, blog) *****/
+.snippet-heading a {
+    border-bottom: 1px solid #e1e13c;
+}
+.snippet-heading a:hover {
+    color: #e1e13c;
+}
+
+/*hover effects*/
+.zoomOverlay {
+    background-image: url('images/snippet-img-bg.png');
+}
+.snippet-img-hover {
+    background-image: url(images/snippet-img-hover.png);
+}
+
+/* Footer widgets*/
+#footer-widget-2 li a {
+    border-bottom: 1px solid #e1e13c;
+}
+#footer-widget-3 li span a {
+    border-bottom: 1px solid #e1e13c;
+}
+#footer-contacts li a {
+    border-bottom: 1px solid #e1e13c;
+}
+#contacts-phone {
+    background: url('images/contacts-phone.png') center top no-repeat;
+}
+#contacts-email {
+    background: url('images/contacts-email.png') center top no-repeat;
+}
+
+/***** Page Title and breadcrumbs *****/
+#pageTitle-section {
+    background: #e1e13c;
+}
+
+/***** Sidebar widgets *****/
+.input-container span {
+    background: #e1e13c;
+}
+.two-col-links li a {
+    border-bottom: 1px solid #e1e13c;
+}
+
+/***** Contacts *****/
+.form-element.input input:focus {
+    border: 1px solid #e1e13c;    
+}
+.form-element.textarea textarea:focus {
+    border: 1px solid #e1e13c;
+}
+#form-submit-button {
+    background: #e1e13c;
+}
+
+/***** Contacts sidebar *****/
+#contact-info a {
+    border-bottom: 1px solid #e1e13c;
+}
+
+/***** Blog excerpts *****/
+.postMeta li a {
+    border-bottom: 1px solid #e1e13c;
+}
+
+/***** Post author *****/
+#blog-author {
+    border-top: 2px solid #e1e13c;
+}
+
+/***** Post comments *****/
+#comment-list li .comment-container .replay-comment {
+    background: url(images/blue-arrow-icon.jpg) left 5px no-repeat;
+}
+#comment-list li .comment-container .replay-comment span {
+    border-bottom: 1px solid #e1e13c;
+}
+/***** Dropdown menu *****/
+#menu-topmenu ul.sub-menu {
+    border-top: 2px solid #e1e13c;
+}
+#menu-topmenu ul.sub-menu li a {
+     border-bottom: 1px solid #e1e13c;
+}
+.sub-menu-triangle {
+    background: url('images/dropdown-arrow.png') center top no-repeat;
+}
+
+/***** Fixed Header *****/
+.fixed-header .header-section {
+    border-top: 2px solid #e1e13c;
+}
+
+/***** Portfolio Fancybox inner *****/
+.portfolio-fancybox-wrapper .full-width-button {
+    background: url(images/full-width-button.png);
+}
+
+/***** Arrow hack *****/
+.portfolio-fancybox-wrapper .prev  {
+    background: url('images/prev.png') left top no-repeat;
+} 
+.portfolio-fancybox-wrapper .prev.no-items  {
+    background: url('images/no-prev.png') left top no-repeat;
+}
+.portfolio-fancybox-wrapper .next  {
+    background: url('images/next.png') left top no-repeat;
+}
+.portfolio-fancybox-wrapper .next.no-items  {
+    background: url('images/no-next.png') left top no-repeat;
+}
+
+/***** Pricing Plans *****/
+.pricing-plan-price {
+    color: #e1e13c;
+}
+.featured-pricing-plan {
+    border: 4px solid #e1e13c;
+}
+
+/***** Style for bootstrap acordions + and - (just wo\\2 statements)*****/
+.nav-tabs > li > a span {  
+  border-bottom: 1px solid #e1e13c;
+}
+.no-bg-tabs.nav-tabs > .active > a span {
+  border-bottom: 1px solid #e1e13c !important;
+}
+.active-accordion .accordion-toggle span {
+  border-bottom: 1px solid #e1e13c;
+}
+.accordion-heading .accordion-toggle {
+  background: url('images/accordion-closed.png') 8px center no-repeat;
+}
+.active-accordion .accordion-toggle {
+  background: url('images/accordion-opened.png') 8px center no-repeat !important;
+}
+
+/***** Hidden sidebar *****/
+#hidden-sidebar {
+    border-top: 2px solid #e1e13c;
+}
+
+#hidden-sidebar .widget .tweet_list li .tweet_text a, #hidden-sidebar .widget a {
+    border-bottom: 1px solid #0c5770;
+}
+
+
+/***** Hidden sidebar *****/
+#hidden-sidebar {
+    border-top: 2px solid #e1e13c;
+}
+
+#hidden-sidebar .widget .tweet_list li .tweet_text a, #hidden-sidebar .widget a {
+    border-bottom: 1px solid #0c5770;
+}
+
+
+/***** Hidden social 2 *****/
+#hidden-social {
+    background: #e1e13c;
+}
+
+#hidden-social .social-icons li a {
+    background-color: #e1e13c;
+}
+

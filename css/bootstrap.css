@@ -1,0 +1,161 @@
+/*!
+ * Bootstrap v2.0.2
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+.nav {
+  margin-left: 0;
+  /*margin-bottom: 18px;*/
+  list-style: none;
+}
+.nav > li > a {
+  display: block;
+}
+.nav > li > a:hover {
+  text-decoration: none;
+  /*background-color: #eeeeee;*/
+}
+.nav-tabs {
+  *zoom: 1;
+}
+.nav-tabs:before,
+.nav-tabs:after{
+  display: table;
+  content: "";
+}
+.nav-tabs:after {
+  clear: both;
+}
+.nav-tabs > li{
+  float: left;
+}
+.nav-tabs {
+  /*border-bottom: 1px solid #ddd;*/
+}
+.nav-tabs > li {
+  margin: 0 0 -4px 0;
+}
+.nav-tabs > li > a {  
+  color: #000;
+  padding: 5px 11px 8px 11px;
+  line-height: 20px;
+  /*border: 1px solid transparent;*/
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}/*
+.nav-tabs > li > a span {  
+  border-bottom: 1px solid #00c0ff;
+  display: block;
+  line-height: 20px;
+}*/
+.nav-tabs > li > a:hover {
+  color: #000;
+}
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a span {
+  color: #000;
+  font-weight: bold;
+  background :#eeeeee;
+  /*border: 1px solid #ddd;*/
+  border-bottom: none;
+  cursor: default;
+}/*
+.no-bg-tabs.nav-tabs > .active > a span {
+  border-bottom: 1px solid #00c0ff !important; 
+  background: none !important; 
+}*/
+.no-bg-tabs.nav-tabs > .active > a, 
+.no-bg-tabs.nav-tabs > .active > a:hover {
+  background: none !important;   
+}
+.tab-content {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;  
+  padding:10px;
+  color: #2b2b2b;
+  line-height: 24px;
+  background :#eeeeee;
+  display: table;
+  width: 100%;
+}
+.no-bg-tabs.tab-content {
+  background: none !important;
+}
+.tab-content > .tab-pane {
+  display: none;
+}
+.tab-content > .active {
+  display: block;
+}
+
+.fade {
+-webkit-transition: opacity 0.15s linear;
+-moz-transition: opacity 0.15s linear;
+-ms-transition: opacity 0.15s linear;
+-o-transition: opacity 0.15s linear;
+transition: opacity 0.15s linear;
+opacity: 0;
+}
+.fade.in {
+opacity: 1;
+}
+
+
+.accordion {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: #eeeeee;
+  padding: 1px 0 2px 0;
+}
+.no-bg-accordion.accordion {
+  background: none !important;
+}
+.accordion-group {
+  border-top: 1px solid #dedede;
+}
+.no-bg-accordion .accordion-group {
+  border: none !important;
+}
+.accordion-group:first-child {
+  border-top: none;
+}
+.accordion-heading {
+  border-bottom: 0;
+  margin-bottom: -3px;
+}/*
+.accordion-heading .accordion-toggle {
+  display: block;
+  padding: 8px 21px 9px 21px;
+  color: #000;
+  background: url('images/accordion-closed.png') 8px center no-repeat;
+}
+.active-accordion .accordion-toggle {
+  background: url('images/accordion-opened.png') 8px center no-repeat !important;
+  font-weight: bold;
+}*//*
+.active-accordion .accordion-toggle span {
+  border-bottom: 1px solid #00c0ff;
+}*/
+.accordion-inner {
+  padding: 10px 21px;
+  color: #2b2b2b;
+  line-height: 24px;
+}
+.collapse {
+-webkit-transition: height 0.35s ease;
+-moz-transition: height 0.35s ease;
+-ms-transition: height 0.35s ease;
+-o-transition: height 0.35s ease;
+transition: height 0.35s ease;
+position: relative;
+overflow: hidden;
+height: 0;
+}

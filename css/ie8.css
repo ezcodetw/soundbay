@@ -1,0 +1,15 @@
+#search-input {
+    height: 27px;
+    padding: 8px 10px 0 10px;
+    margin-bottom: 0px;
+}
+.form-element.input input {
+    height: 26px;
+    padding: 9px 10px 0 10px;
+}
+.form-element.textarea textarea {
+    margin-bottom: 0px;
+}
+#portfolio-single-section {
+	margin-bottom: 0px;
+}

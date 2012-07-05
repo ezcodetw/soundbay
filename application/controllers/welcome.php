@@ -19,7 +19,8 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-            
+          
+            $this->smview->display( 'music/index.html' ) ;
                 
             
 	}

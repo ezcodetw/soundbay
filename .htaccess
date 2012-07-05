@@ -1,4 +1,4 @@
 RewriteEngine on
-RewriteBase /mico/
-RewriteCond $1 !^(index\.php|ajax|js|css|gfx|text|file|ckeditor|robots\.txt)
+RewriteBase /lisa/
+RewriteCond $1 !^(index\.php|ajax|js|gfx|text|file|ckeditor|images|css|robots\.txt)
 RewriteRule ^(.*)$ index.php/$1 [L]

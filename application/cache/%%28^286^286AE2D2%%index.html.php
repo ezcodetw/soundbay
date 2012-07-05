@@ -1,0 +1,461 @@
+<?php /* Smarty version 2.6.18, created on 2012-07-02 09:21:34
+         compiled from music/index.html */ ?>
+<?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "include/include_head.html", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>
+
+<body class="home" >
+<!-- frame container -->
+<div id="frame-container" >
+
+<?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "include/include_header.html", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>
+
+<div class="separator-line no-margin"></div>
+
+<script type="text/javascript">
+   $(document).ready(function() { 
+       $('#slider-container').oneByOne({
+			className: 'oneByOne', // the wrapper's name
+			sliderClassName: 'slide',  // the each slider div's class name
+			easeType: 'random',  // the ease animation style
+			width: 960,  // width of the slider
+			height: 420, // height of the slider
+			delay: 300,  // the delay of the touch/drag tween
+			tolerance: 0.25, // the tolerance of the touch/drag  
+			enableDrag: true,  // enable or disable the drag function by mouse
+			showArrow: false,  // display the previous/next arrow or not
+			showButton: true,  // display the circle buttons or not
+			slideShow: true,  // auto play the slider or not
+			slideShowDelay: 3000 // the delay millisecond of the slidershow
+	});  
+   }); 
+
+</script>
+
+<!-- slider-section -->
+<div id="slider-section" class="group">
+	<div id="slider-container" >
+
+		<div class="slide">
+
+		<img class="image1" style="bottom: 60px; right: 52px;" src="<?php echo $this->_tpl_vars['THISHOST']; ?>
+css/images/slideshow/1/fire.png" alt="">
+		<img class="image1" style="bottom: 0; right: 0;" src="<?php echo $this->_tpl_vars['THISHOST']; ?>
+css/images/slideshow/1/blue-line.png" alt="">
+		<img class="image1" style="top: 148px; right: 119px;" src="<?php echo $this->_tpl_vars['THISHOST']; ?>
+css/images/slideshow/1/crown.png" alt="">
+		<img class="image1" style="top: 250px; right: 460px;" src="<?php echo $this->_tpl_vars['THISHOST']; ?>
+css/images/slideshow/1/plane.png" alt="">
+		<img class="image2 bounceInLeft" style="bottom: 0; right: 105px;" src="<?php echo $this->_tpl_vars['THISHOST']; ?>
+css/images/slideshow/1/man.png" alt="">
+
+			<div class="slider-text position-left bounceIn">
+					<span class="slider-title"><strong>Quad your sale</strong> rates with
+					<a href="javascript:void(0)">anchors</a> theme</span>
+					<p>Our beautifuly designed, SEO optimized, responsive and overall awesome Anchors theme can help you move your business to next level while <strong>keeping 1000$ worth desing look and quality for 35$ </strong></p>
+					<a href="javascript:void(0)" class="big-button">Purchase Now</a>
+			</div>
+		</div>
+		<div class="slide">
+
+		<img class="image1" style="top: 0; right: 0;" src="<?php echo $this->_tpl_vars['THISHOST']; ?>
+css/images/slideshow/4/lines.png" alt="">
+		<img class="image1" style="top: 200px; right: 0" src="<?php echo $this->_tpl_vars['THISHOST']; ?>
+css/images/slideshow/4/couch.png" alt="">
+		<img class="image1" style="top: 142px; right: 275px;" src="<?php echo $this->_tpl_vars['THISHOST']; ?>
+css/images/slideshow/4/price.png" alt="">
+		<img class="image1" style="bottom: 75px; right: 52px;" src="<?php echo $this->_tpl_vars['THISHOST']; ?>
+css/images/slideshow/4/text.png" alt="">
+			<div class="slider-text position-left">
+					<span class="slider-title"><strong>Quad your sale</strong> rates with
+					<a href="javascript:void(0)">anchors</a> theme</span>
+					<p>Our beautifuly designed, SEO optimized, responsive and overall awesome Anchors theme can help you move your business to next level while <strong>keeping 1000$ worth desing look and quality for 35$ </strong></p>
+					<a href="javascript:void(0)" class="big-button">Purchase Now</a>
+			</div>
+		</div>		
+
+		<div class="slide">
+
+		<img class="image1" style="bottom: 0; right: 100px;" src="<?php echo $this->_tpl_vars['THISHOST']; ?>
+css/images/slideshow/3/iphone.png" alt="">
+		<img class="image1" style="bottom: 300px; right: 74px;" src="<?php echo $this->_tpl_vars['THISHOST']; ?>
+css/images/slideshow/3/crown.png" alt="">
+		<img class="image1" style="bottom: 216px; right: 47px;" src="<?php echo $this->_tpl_vars['THISHOST']; ?>
+css/images/slideshow/3/cloud1.png" alt="">
+		<img class="image1" style="bottom: 116px; right: 381px;" src="<?php echo $this->_tpl_vars['THISHOST']; ?>
+css/images/slideshow/3/cloud2.png" alt="">
+		<img class="image1" style="bottom: 231px; right: 413px;" src="<?php echo $this->_tpl_vars['THISHOST']; ?>
+css/images/slideshow/3/plane.png" alt="">
+
+			<div class="slider-text position-left">
+					<span class="slider-title"><strong>Quad your sale</strong> rates with
+					<a href="javascript:void(0)">anchors</a> theme</span>
+					<p>Our beautifuly designed, SEO optimized, responsive and overall awesome Anchors theme can help you move your business to next level while <strong>keeping 1000$ worth desing look and quality for 35$ </strong></p>
+					<a href="javascript:void(0)" class="big-button">Purchase Now</a>
+			</div>
+		</div>
+
+		<div class="slide">
+
+		<iframe width="935" height="515" src="http://www.youtube.com/embed/p1ykWfEGOFg" frameborder="0" allowfullscreen></iframe>
+
+			<div class="slider-text position-right">
+					<span class="slider-title"><strong>Quad your sale</strong> rates with
+					<a href="javascript:void(0)">anchors</a> theme</span>
+					<p>Our beautifuly designed, SEO optimized, responsive and overall awesome Anchors theme can help you move your business to next level while <strong>keeping 1000$ worth desing look and quality for 35$ </strong></p>
+					<a href="javascript:void(0)" class="big-button">Purchase Now</a>
+			</div>
+
+		</div>
+
+	</div>
+	<div id="slider-nav-section">
+		<div id="triangle"></div>
+	</div>
+</div>
+<!-- end slider-section -->
+
+
+
+<!-- blockquote-container 
+<div id="blockquote-container" class="wrapper flexslider">
+	<ul class="slides">
+	<li>
+	<blockquote>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. In fermentum semper risus nec congue. Etiam euismod nisi vel orci consectetur pharetra. Pellentesque pretium odio nec augue sollicitudin egestas. Curabitur nec augue ligula. Proin egestas molestie mi. Cras ut tellus ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+	</blockquote>
+	<span class="blockquote-author">Steve Jobs. Apple CEO</span>
+	</li>
+	<li>
+	<blockquote>
+	As individuals, people are inherently good. I have a <strong>somewhat</strong> more pessimistic view of people in groups. And I remain extremely  legit &amp; concerned when I see what's happening in our country, which is in many ways the <strong>luckiest place in the world</strong>. We don't seem to be excited about making our country a better place for our kids
+	</blockquote>
+	<span class="blockquote-author">Kaspars Milbergs. iWeb.lv</span>
+	</li>
+	<li>
+	<blockquote>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. In fermentum semper risus nec congue. Etiam euismod nisi vel orci consectetur pharetra. Pellentesque pretium odio nec augue sollicitudin egestas. Curabitur nec augue ligula. Proin egestas molestie mi. Cras ut tellus ligula. Pellentesque consequat malesuada velit nec pharetra.
+	</blockquote>
+	<span class="blockquote-author">Kārlis Andersons. iWeb.lv</span>
+	</li>
+	<li>
+	<blockquote>
+	As individuals, people are inherently good. I have a <strong>somewhat</strong> more pessimistic view of people in groups. And I remain extremely  legit &amp; concerned when I see what's happening in our country, which is in many ways the <strong>luckiest place in the world</strong>. We don't seem to be excited about making our country a better place for our kids
+	</blockquote>
+	<span class="blockquote-author">Kristaps Krūze. iWeb.lv</span>
+	</li>
+	</ul>
+
+	<div id="big-quotes"></div>
+	<div class="bullets-pagination">
+		<ul>
+			<li class="bullets-pagination-current"><a href="javascript:void(0)"></a></li>
+			<li><a href="javascript:void(0)"></a></li>
+			<li><a href="javascript:void(0)"></a></li>
+			<li><a href="javascript:void(0)"></a></li>
+			<li><a href="javascript:void(0)"></a></li>
+			<li><a href="javascript:void(0)"></a></li>
+		</ul>
+	</div>
+</div>
+<!-- end blockquote-container -->
+
+<div class="separator-line"></div>
+
+<!-- featured-container
+<div id="featured-container" class="wrapper grid-section-single group">
+	<ul>
+		<li class="grid-1-3 featured">
+			<div class="featured-header">
+				<img src="images/featured-icon-1.png" alt="" width="64" height="64" class="featured-icon">
+				<h3>For both deskop and mobile For both deskop and mobile</h3>
+			</div>
+			<p class="featured-content">
+			Heh, there are a lot of responsive themes around the market, but they all aren’t smart . We keep it simple - 3 sizes and thats it. It simply works. :) 
+			</p>
+			<a href="javascript:void(0)" class="button">Read more</a>
+		</li>
+		<li class="grid-1-3 featured">
+			<div class="featured-header">
+				<img src="images/featured-icon-2.png" alt="" width="64" height="64" class="featured-icon">
+				<h3>For both deskop and mobile</h3>
+			</div>
+			<p class="featured-content">
+			Heh, there are a lot of responsive themes around the market, but they all aren’t smart . We keep it simple - 3 sizes and thats it. It simply works. :) 
+			</p>
+			<a href="javascript:void(0)" class="button">Read more</a>
+		</li>
+		<li class="grid-1-3 featured">
+			<div class="featured-header">
+				<img src="images/featured-icon-3.png" alt="" width="64" height="64" class="featured-icon">
+				<h3>For both deskop and mobile</h3>
+			</div>
+			<p class="featured-content">
+			Heh, there are a lot of responsive themes around the market, but they all aren’t smart . We keep it simple - 3 sizes and thats it. It simply works. :) 
+			</p>
+			<a href="javascript:void(0)" class="button">Read more</a>
+		</li>
+		<li class="grid-1-3 featured">
+			<div class="featured-header">
+				<img src="images/featured-icon-4.png" alt="" width="64" height="64" class="featured-icon">
+				<h3>For both deskop and mobile</h3>
+			</div>
+			<p class="featured-content">
+			Heh, there are a lot of responsive themes around the market, but they all aren’t smart . We keep it simple - 3 sizes and thats it. It simply works. :) 
+			</p>
+			<a href="javascript:void(0)" class="button">Read more</a>
+		</li>
+		<li class="grid-1-3 featured">
+			<div class="featured-header">
+				<img src="images/featured-icon-5.png" alt="" width="64" height="64" class="featured-icon">
+				<h3>For both deskop and mobile</h3>
+			</div>
+			<p class="featured-content">
+			Heh, there are a lot of responsive themes around the market, but they all aren’t smart . We keep it simple - 3 sizes and thats it. It simply works. :) 
+			</p>
+			<a href="javascript:void(0)" class="button">Read more</a>
+		</li>
+		<li class="grid-1-3 featured">
+			<div class="featured-header">
+				<img src="images/featured-icon-6.png" alt="" width="64" height="64" class="featured-icon">
+				<h3>For both deskop and mobile</h3>
+			</div>
+			<p class="featured-content">
+			Heh, there are a lot of responsive themes around the market, but they all aren’t smart . We keep it simple - 3 sizes and thats it. It simply works. :) 
+			</p>
+			<a href="javascript:void(0)" class="button">Read more</a>
+		</li>
+	</ul>
+</div>
+<!-- end featured-container -->
+
+
+
+<!-- portfolio-snippets-section -->
+<div id="portfolio-snippets-section" class="wrapper filter section">
+	<div class="section-header group">
+		<h2><a href="javascript:void(0)">熱門下載排行</a></h2>
+		<div class="sub-section-header">
+			<ul class="section-menu">
+				<li class="section-menu-current"><a class="all" href="javascript:void(0)">首頁</a></li>
+				<li><a class="applications" href="javascript:void(0)" >熱門下載排行</a></li>
+			</ul>
+		</div>
+		<div class="arrows-pagination">
+			<ul>
+				<li class="prev no-items"><a href="javascript:void(0)"></a></li>
+				<li class="next"><a href="javascript:void(0)"></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="grid-section-single group">
+		<ul>
+			<li data-id="id-1" data-type="applications video" class="grid-1-3 portfolio-snippet"><a href="<?php echo $this->_tpl_vars['THISHOST']; ?>
+music/view/" class="snippet-img zoom"><img src="<?php echo $this->_tpl_vars['THISHOST']; ?>
+css/images/portfolio-snippet-img-1.jpg" alt="Portfolio snippet image"></a></li>
+			<li data-id="id-2" data-type="artwork " class="grid-1-3 portfolio-snippet"><a href="<?php echo $this->_tpl_vars['THISHOST']; ?>
+music/view/" class="snippet-img zoom"><img src="<?php echo $this->_tpl_vars['THISHOST']; ?>
+css/images/portfolio-snippet-img-2.jpg" alt="Portfolio snippet image"></a></li>
+			<li data-id="id-3" data-type="applications illustration video" class="grid-1-3 portfolio-snippet"><a href="<?php echo $this->_tpl_vars['THISHOST']; ?>
+music/view/" class="snippet-img zoom"><img src="<?php echo $this->_tpl_vars['THISHOST']; ?>
+css/images/portfolio-snippet-img-3.jpg" alt="Portfolio snippet image"></a></li>
+			<li data-id="id-4" data-type="webdesign " class="grid-1-3 portfolio-snippet"><a href="<?php echo $this->_tpl_vars['THISHOST']; ?>
+music/view/" class="snippet-img zoom"><img src="<?php echo $this->_tpl_vars['THISHOST']; ?>
+css/images/portfolio-snippet-img-4.jpg" alt="Portfolio snippet image"></a></li>
+			<li data-id="id-5" data-type="applications video" class="grid-1-3 portfolio-snippet"><a href="<?php echo $this->_tpl_vars['THISHOST']; ?>
+music/view/" class="snippet-img zoom"><img src="<?php echo $this->_tpl_vars['THISHOST']; ?>
+css/images/portfolio-snippet-img-5.jpg" alt="Portfolio snippet image"></a></li>
+			<li data-id="id-6" data-type="webdesign artwork" class="grid-1-3 portfolio-snippet"><a href="<?php echo $this->_tpl_vars['THISHOST']; ?>
+music/view/" class="snippet-img zoom"><img src="<?php echo $this->_tpl_vars['THISHOST']; ?>
+css/images/portfolio-snippet-img-6.jpg" alt="Portfolio snippet image"></a></li>						
+
+		</ul>
+	</div>	
+	
+	<div class="bullets-pagination">
+		<ul>
+			<li class="bullets-pagination-current"><a href="javascript:void(0)"></a></li>
+			<li><a href="javascript:void(0)"></a></li>
+			<li><a href="javascript:void(0)"></a></li>
+			<li><a href="javascript:void(0)"></a></li>
+			<li><a href="javascript:void(0)"></a></li>
+			<li><a href="javascript:void(0)"></a></li>
+		</ul>
+	</div>
+</div>
+<!-- end portfolio-snippets-section -->
+
+<!-- portfolio-snippets-section -->
+<div id="portfolio-snippets-section" class="wrapper filter section">
+	<div class="section-header group">
+		<h2><a href="javascript:void(0)">熱門播放排行</a></h2>
+		<div class="sub-section-header">
+			<ul class="section-menu">
+				<li class="section-menu-current"><a class="all" href="javascript:void(0)">首頁</a></li>
+				<li><a class="applications" href="javascript:void(0)" >熱門播放排行</a></li>
+			</ul>
+		</div>
+		<div class="arrows-pagination">
+			<ul>
+				<li class="prev no-items"><a href="javascript:void(0)"></a></li>
+				<li class="next"><a href="javascript:void(0)"></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="grid-section-single group">
+		<ul>
+			<li data-id="id-1" data-type="applications video" class="grid-1-3 portfolio-snippet"><a href="<?php echo $this->_tpl_vars['THISHOST']; ?>
+music/view/" class="snippet-img zoom"><img src="<?php echo $this->_tpl_vars['THISHOST']; ?>
+css/images/portfolio-snippet-img-1.jpg" alt="Portfolio snippet image"></a></li>
+			<li data-id="id-2" data-type="artwork " class="grid-1-3 portfolio-snippet"><a href="<?php echo $this->_tpl_vars['THISHOST']; ?>
+music/view/" class="snippet-img zoom"><img src="<?php echo $this->_tpl_vars['THISHOST']; ?>
+css/images/portfolio-snippet-img-2.jpg" alt="Portfolio snippet image"></a></li>
+			<li data-id="id-3" data-type="applications illustration video" class="grid-1-3 portfolio-snippet"><a href="<?php echo $this->_tpl_vars['THISHOST']; ?>
+music/view/" class="snippet-img zoom"><img src="<?php echo $this->_tpl_vars['THISHOST']; ?>
+css/images/portfolio-snippet-img-3.jpg" alt="Portfolio snippet image"></a></li>
+			<li data-id="id-4" data-type="webdesign " class="grid-1-3 portfolio-snippet"><a href="<?php echo $this->_tpl_vars['THISHOST']; ?>
+music/view/" class="snippet-img zoom"><img src="<?php echo $this->_tpl_vars['THISHOST']; ?>
+css/images/portfolio-snippet-img-4.jpg" alt="Portfolio snippet image"></a></li>
+			<li data-id="id-5" data-type="applications video" class="grid-1-3 portfolio-snippet"><a href="<?php echo $this->_tpl_vars['THISHOST']; ?>
+music/view/" class="snippet-img zoom"><img src="<?php echo $this->_tpl_vars['THISHOST']; ?>
+css/images/portfolio-snippet-img-5.jpg" alt="Portfolio snippet image"></a></li>
+			<li data-id="id-6" data-type="webdesign artwork" class="grid-1-3 portfolio-snippet"><a href="<?php echo $this->_tpl_vars['THISHOST']; ?>
+music/view/" class="snippet-img zoom"><img src="<?php echo $this->_tpl_vars['THISHOST']; ?>
+css/images/portfolio-snippet-img-6.jpg" alt="Portfolio snippet image"></a></li>						
+
+		</ul>
+	</div>	
+	
+	<div class="bullets-pagination">
+		<ul>
+			<li class="bullets-pagination-current"><a href="javascript:void(0)"></a></li>
+			<li><a href="javascript:void(0)"></a></li>
+			<li><a href="javascript:void(0)"></a></li>
+			<li><a href="javascript:void(0)"></a></li>
+			<li><a href="javascript:void(0)"></a></li>
+			<li><a href="javascript:void(0)"></a></li>
+		</ul>
+	</div>
+</div>
+<!-- end portfolio-snippets-section -->
+
+<!-- promotion-section
+<div class="promotion-section">
+	<div class="wrapper promotion-container">
+		<p class="promotion-text">Do you find this theme useful and want to give it a try ?</p>
+		<a href="javascript:void(0)" class="button promotion-button">Purchase Now! SALE! 20% OFF</a>
+	</div>
+</div>
+<!-- end promotion-section -->
+<!--註解調分隔線
+<div class="separator-line"></div>
+-->
+<!-- blog-snippets-section 
+<div id="blog-snippets-section" class="wrapper section">
+	<div class="section-header group">
+		<h2><a href="javascript:void(0)">Blog</a></h2>
+		<div class="sub-section-header">
+			<ul class="section-menu">
+				<li class="section-menu-current"><a href="#">New posts</a></li>
+				<li><a href="#">View all posts</a></li>
+			</ul>
+		</div>
+		<div class="arrows-pagination">
+			<ul>
+				<li class="prev"><a href="javascript:void(0)"></a></li>
+				<li class="next  no-items"><a href="javascript:void(0)"></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="grid-section-single group">
+		<ul>
+			<li class="grid-1-3 blog-snippet">
+				<a href="javascript:void(0)" class="snippet-img zoom"><img src="images/blog-snippet-img-1.jpg" alt="Blog snippet image"></a>
+				<h3 class="snippet-heading"><a href="#">Today fuel price is incrising again</a></h3>
+				<div class="snippet-info">
+					<p>
+					"Statoil" one cent today raised prices of gasoline, so gasoline costs 95.markas 1.019 lats, but 98.markas petrol - LVL 1.049 per liter. Diesel still costs 99.9 centimes per liter.
+					</p>
+				</div>
+				<a href="javascript:void(0)" class="button">Read more</a>
+			</li>
+			<li class="grid-1-3 blog-snippet">
+				<a href="javascript:void(0)" class="snippet-img zoom"><img src="images/blog-snippet-img-2.jpg" alt="Blog snippet image"></a>
+				<h3 class="snippet-heading"><a href="#">Today fuel price is incrising again</a></h3>
+				<div class="snippet-info">
+					<p>
+					"Statoil" one cent today raised prices of gasoline, so gasoline costs 95.markas 1.019 lats, but 98.markas petrol - LVL 1.049 per liter. Diesel still costs 99.9 centimes per liter.
+					</p>
+				</div>
+				<a href="javascript:void(0)" class="button">Read more</a>
+			</li>
+			<li class="grid-1-3 blog-snippet">
+				<a href="javascript:void(0)" class="snippet-img zoom"><img src="images/blog-snippet-img-3.jpg" alt="Blog snippet image"></a>
+				<h3 class="snippet-heading"><a href="#">Today fuel price is incrising again</a></h3>
+				<div class="snippet-info">
+					<p>
+					"Statoil" one cent today raised prices of gasoline, so gasoline costs 95.markas 1.019 lats, but 98.markas petrol - LVL 1.049 per liter. Diesel still costs 99.9 centimes per liter.
+					</p>
+				</div>
+				<a href="javascript:void(0)" class="button">Read more</a>
+			</li>
+			<li class="grid-1-3 blog-snippet">
+				<a href="javascript:void(0)" class="snippet-img zoom"><img src="images/blog-snippet-img-4.jpg" alt="Blog snippet image"></a>
+				<h3 class="snippet-heading"><a href="#">Today fuel price is incrising again</a></h3>
+				<div class="snippet-info">
+					<p>
+					"Statoil" one cent today raised prices of gasoline, so gasoline costs 95.markas 1.019 lats, but 98.markas petrol - LVL 1.049 per liter. Diesel still costs 99.9 centimes per liter.
+					</p>
+				</div>
+				<a href="javascript:void(0)" class="button">Read more</a>
+			</li>
+			<li class="grid-1-3 blog-snippet">
+				<a href="javascript:void(0)" class="snippet-img zoom"><img src="images/blog-snippet-img-5.jpg" alt="Blog snippet image"></a>
+				<h3 class="snippet-heading"><a href="#">Today fuel price is incrising again</a></h3>
+				<div class="snippet-info">
+					<p>
+					"Statoil" one cent today raised prices of gasoline, so gasoline costs 95.markas 1.019 lats, but 98.markas petrol - LVL 1.049 per liter. Diesel still costs 99.9 centimes per liter.
+					</p>
+				</div>
+				<a href="javascript:void(0)" class="button">Read more</a>
+			</li>
+			<li class="grid-1-3 blog-snippet">
+				<a href="javascript:void(0)" class="snippet-img zoom"><img src="images/blog-snippet-img-6.jpg" alt="Blog snippet image"></a>
+				<h3 class="snippet-heading"><a href="#">Today fuel price is incrising again</a></h3>
+				<div class="snippet-info">
+					<p>
+					"Statoil" one cent today raised prices of gasoline, so gasoline costs 95.markas 1.019 lats, but 98.markas petrol - LVL 1.049 per liter. Diesel still costs 99.9 centimes per liter.
+					</p>
+				</div>
+				<a href="javascript:void(0)" class="button">Read more</a>
+			</li>
+		</ul>
+	</div>
+	<div class="numbers-pagination">
+		<ul>
+			<li class="numbers-pagination-current"><a href="#">1</a></li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+		</ul>
+	</div>
+</div>
+<!-- end blog-snippets-section -->
+
+<div class="separator-line"></div>
+
+<?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "include/include_footer.html", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>
+</div>
+<!-- end frame container -->
+</body>
+
+</html>

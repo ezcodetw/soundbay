@@ -1,0 +1,89 @@
+<?php /* Smarty version 2.6.18, created on 2012-07-01 08:27:26
+         compiled from include/include_footer.html */ ?>
+<!-- footer-widgets-container -->
+<div id="footer-widgets-container" class="wrapper grid-section-multi group">
+		<div id="footer-widget-1" class="grid-1-3">
+			<h3 class="widget-title"></h3>
+			<nav  id="menu-bottommenu" class="menu">
+				<ul>
+					<li class="current-menu-item"><a href="index.html">關於Soundbay</a></li>
+					<li><a href="about.html">音樂分類瀏覽</a></li>
+					<li><a href="portfolio.html">音樂製作教學部落格</a></li>
+					<li><a href="blog.html">客服中心</a></li>
+					<li><a href="fullwidth.html">廠商合作</a></li>
+					<li><a href="contacts.html">版權及隱私權政策</a></li>
+					<li><a href="fullwidth.html">官方手機撥放程式</a></li>
+					<li><a href="contacts.html">Soundbay官方臉書</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="footer-widget-2" class="grid-1-6">
+			<h3 class="widget-title">排行榜中心</h3>
+			<ul>
+				<li><a href="#">每月熱門下載</a></li>
+				<li><a href="#">每周熱門下載</a></li>
+				<li><a href="#">每日熱門下載</a></li>
+				<li><a href="#">每月熱門分享</a></li>
+				<li><a href="#">每周熱門分享</a></li>
+				<li><a href="#">每日熱門分享</a></li>
+				<li><a href="#">本日最新上傳</a></li>
+				<li><a href="#">分類排行</a></li>
+			</ul>
+		</div>
+		
+		<div id="footer-widget-4" class="grid-1-3">
+			<div id="footer-contacts">
+				<ul>
+					<li id="contacts-email"><a href="#">service@soundbay.cc</a></li>
+					<li id="contacts-phone"><a href="#">02-2255-5599</a></li>
+				</ul>
+			</div>
+			<!--
+			<div id="footer-social-buttons">				
+				<ul class="group social-icons">
+					<li><a class="twitter-icon" href="#"></a></li>
+					<li><a class="facebook-icon" href="#"></a></li>
+					<li><a class="dribbble-icon" href="#"></a></li>
+					<li><a class="lastfm-icon" href="#"></a></li>
+					<li><a class="youtube-icon" href="#"></a></li>
+					<li><a class="vimeo-icon" href="#"></a></li>
+				</ul>
+			</div>
+			-->
+		</div>
+</div>
+<!-- end footer-widgets-container -->
+
+<!-- footer -->
+<footer id="footer" class="wrapper">
+	<span id="copyright">&copy; 華翼資訊科技有限公司 版權所有 © 2012 All Rights Reserved.</span>
+	<span id="company-name"></span>
+	<span id="company-address"></span>
+	<div id="footer-like-buttons" class="group">
+		<!-- #twitter-like-button
+		<div id="twitter-like-button">
+			<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://themeforest.net/">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>  -->
+		<!-- #facebook-like-button
+		<div id="facebook-like-button">
+			<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fthemeforest.net%2F&amp;send=false&amp;layout=button_count&amp;width=115&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=197455320308381" style="border:none; overflow:hidden; width:115px; height:21px;"></iframe>
+		</div>  -->
+
+		<div id="google-like-button">
+			<!-- Place this tag where you want the +1 button to render 
+			<div class="g-plusone" data-size="medium"></div>
+
+			<!-- Place this render call where appropriate -->
+			<script type="text/javascript">
+			  (function() {
+			    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+			    po.src = 'https://apis.google.com/js/plusone.js';
+			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+			  })();
+			</script>
+		</div> <!-- #google-like-button -->
+
+	</div>
+</footer>
+<!-- end footer -->
